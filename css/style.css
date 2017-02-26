@@ -21,11 +21,15 @@ body{
 	margin: 10px 10px;
 }
 
+#usernamechecker,#passwordchecker{
+	color: red;
+}
+
 /*Profile Page Style*/
 
 .profile{
 
-	background-color: #EEEEEE;
+	background-color: transparent;
 	width: 40%;
 	margin: 10px 20px;
 	padding: 10px 40px;
@@ -54,12 +58,14 @@ body{
 
 #area{
 	width: 100%;
+	/*color: white;*/
 
 }
 
 #area textarea{
-	width: 100%;
+	width: 80%;
 	margin: 20px auto;
+	/*background-color: grey;*/
 }
 
 .bgcolor{
@@ -69,7 +75,7 @@ body{
 
 .box{
 	background-color: green;
-	height: 300px;
+	height: 200px;
 	width: 100%;
 }
 
@@ -78,3 +84,4 @@ body{
     min-height: 400px;
     background: transparent;
 }
+
