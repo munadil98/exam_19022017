@@ -14,7 +14,9 @@ $(document).ready(function(){
 			$("#usernamechecker").text("Username can't be empty");
 
 		}
+		
 		else{
+		
 			$("#usernamechecker").text("Username Ok");			
 		}
 
@@ -53,6 +55,7 @@ $(document).ready(function(){
 
 			$("#username").val("");
 			$("#password").val("");	
+			$("#usernamechecker").text("");			
 			$("#passwordchecker").text("");			
 
 	});
@@ -70,5 +73,30 @@ $(document).ready(function(){
 	});
 
 
+	
+	$('.owl-carousel').owlCarousel({
+	    loop:true,
+	    margin:20,
+	    nav:true,
+	    // responsiveClass:true,
+	    responsive:{
+	        0:{
+	            items:1
+	        },
+	        600:{
+	            items:2
+	        },
+	        800:{
+	            items:5
+	        }
+	    },
+
+	// items: 1,
+    // autoplay: true,
+    // autoPlaySpeed: 5000,
+    // autoPlayTimeout: 5000,
+    // autoplayHoverPause: true
+
+	})
 
 });
